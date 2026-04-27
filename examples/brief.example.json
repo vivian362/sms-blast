@@ -1,0 +1,49 @@
+{
+  "project": {
+    "name": "Spring Weight Loss Promo",
+    "client": "Acme Wellness",
+    "timezone": "America/New_York"
+  },
+  "brand": {
+    "voice": "Trusted, practical, motivational",
+    "prohibited_claims": [
+      "Guaranteed results",
+      "Lose 20 lbs in 7 days"
+    ],
+    "compliance_notes": "Avoid medical claims; include realistic outcomes."
+  },
+  "offer": {
+    "product_name": "Metabolic Reset Program",
+    "price": "$99",
+    "primary_cta": "Book Your Consult",
+    "landing_page": "https://example.com/reset"
+  },
+  "audiences": [
+    {
+      "name": "Women 30-50",
+      "pain_points": ["low energy", "plateaued weight loss"],
+      "desired_outcomes": ["sustainable habits", "better confidence"]
+    },
+    {
+      "name": "Busy Professionals",
+      "pain_points": ["time constraints", "stress eating"],
+      "desired_outcomes": ["simple routine", "long-term consistency"]
+    }
+  ],
+  "creative_requirements": {
+    "count_per_platform": 2,
+    "languages": ["en-US"],
+    "meta": {
+      "placements": ["facebook_feed", "instagram_feed", "reels"],
+      "headline_max_chars": 40,
+      "primary_text_max_chars": 125
+    },
+    "google": {
+      "campaign_type": "search",
+      "headline_max_chars": 30,
+      "description_max_chars": 90,
+      "headlines_required": 15,
+      "descriptions_required": 4
+    }
+  }
+}
